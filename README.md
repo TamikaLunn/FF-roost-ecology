@@ -13,6 +13,7 @@ The code is organised into an RProject containing seven files:
 - 04_generate-figures_VSubmission.R - code to generate figures presented in the published manuscript
 - 05_bat-male-distribution-visuals_VSubmission.RMD - code to generate Appendix S4 of paper - Male composition per tree over space and time
 - 06_bat-structure-cluster-visuals_VSubmission.RMD - code to generate Appendix S3 of paper - Species density over space and time
+
 The rendered RMD files are available at:
 - Appendix S3 ("Species density over space and time"): https://drive.google.com/file/d/1VNM5c91lPlf-aUKOcGhKU8TvtxQHIHiO/view?usp=sharing
 - Appendix S4 ("Male composition per tree over space and time"): https://drive.google.com/file/d/1kfXRLUKsrlfNU_0I5SW2nutdAGqzt7KT/view?usp=sharing
