@@ -18,8 +18,6 @@ The rendered RMD files are available at:
 - Appendix S3 ("Species density over space and time"): https://drive.google.com/file/d/1VNM5c91lPlf-aUKOcGhKU8TvtxQHIHiO/view?usp=sharing
 - Appendix S4 ("Male composition per tree over space and time"): https://drive.google.com/file/d/1kfXRLUKsrlfNU_0I5SW2nutdAGqzt7KT/view?usp=sharing
 
-** It is important to load the code as the RProject so that root folders in setwd are correct **
-
 Data are organised into an RProject containing two folders
 - /Raw : raw data input for code '01_create-kernel-density-and-Voroni-polygons_VSubmission.R' and '02_format-raw-data_VSubmission.R'
 - /Processed : processed data input for code '03_fit-models_VSubmission.R' and '04_generate-figures_VSubmission.R'
@@ -30,3 +28,4 @@ Output is organised into an RProject containing:
 - /Model output : GAMM model output for main statistical comparisons
 More details on model structure are given in the published manuscript
 
+** It is important to load the code as the RProject so that root folders in setwd are correct **
