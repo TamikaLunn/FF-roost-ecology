@@ -1,0 +1,192 @@
+---
+title: "Appendix S3 -Species density over space and time"
+author: "Tamika Lunn"
+date: "08/01/2021"
+output: html_document
+---
+
+Supporting Information for Lunn et al (2021) Conventional wisdom on roosting behaviour of Australian flying foxes – a critical review, and evaluation using new data 
+
+
+```{r setup, include=FALSE}
+### Load packages
+library(knitr)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("EBImage") #scroll images
+library(EBImage) #https://rdrr.io/bioc/EBImage/man/display.html citation("EBImage")
+```
+
+**This document provides interactive images of species density and distribution at each site across the survey period.**  
+
+Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on top of black flying-fox density, which is overlaid on top of grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.  
+
+### Avondale
+```{r, echo=FALSE}
+DAVO001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide1.JPG")
+DAVO002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide2.JPG")
+DAVO003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide3.JPG")
+DAVO004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide4.JPG")
+DAVO005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide5.JPG")
+DAVO006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide6.JPG")
+DAVO007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide7.JPG")
+DAVO008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide8.JPG")
+DAVO009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide9.JPG")
+DAVO010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide10.JPG")
+DAVO011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide11.JPG")
+DAVO012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide12.JPG")
+DAVO013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DAVO/Slide13.JPG")
+
+imgs <- c(DAVO001, DAVO002, DAVO003, DAVO004, DAVO005, DAVO006, DAVO007, DAVO008, DAVO009, DAVO010, DAVO011, DAVO012, DAVO013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+**Figure 1: Species density at the 'Avondale' roost. Note that construction works were carried out in the west of the roost between the tree survey (April 2018) and start of bat surveys (August 2018), causing the bats to shift unexpectedly to the east and away from the majority of the survey plots. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site, but little red flying-foxes were not captured in surveys.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.    
+
+### Burleigh
+```{r, echo=FALSE}
+DBUR001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide1.JPG")
+DBUR002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide2.JPG")
+DBUR003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide3.JPG")
+DBUR004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide4.JPG")
+DBUR005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide5.JPG")
+DBUR006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide6.JPG")
+DBUR007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide7.JPG")
+DBUR008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide8.JPG")
+DBUR009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide9.JPG")
+DBUR010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide10.JPG")
+DBUR011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide11.JPG")
+DBUR012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide12.JPG")
+DBUR013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DBUR/Slide13.JPG")
+
+imgs <- c(DBUR001, DBUR002, DBUR003, DBUR004, DBUR005, DBUR006, DBUR007, DBUR008, DBUR009, DBUR010, DBUR011, DBUR012, DBUR013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+**Figure 2: Species density at the 'Burleigh' roost. Only Black flying-foxes were observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+
+### Canungra
+```{r, echo=FALSE}
+DCAN001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide1.JPG")
+DCAN002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide2.JPG")
+DCAN003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide3.JPG")
+DCAN004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide4.JPG")
+DCAN005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide5.JPG")
+DCAN006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide6.JPG")
+DCAN007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide7.JPG")
+DCAN008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide8.JPG")
+DCAN009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide9.JPG")
+DCAN010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide10.JPG")
+DCAN011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide11.JPG")
+DCAN012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide12.JPG")
+DCAN013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCAN/Slide13.JPG")
+
+imgs <- c(DCAN001, DCAN002, DCAN003, DCAN004, DCAN005, DCAN006, DCAN007, DCAN008, DCAN009, DCAN010, DCAN011, DCAN012, DCAN013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+**Figure 3: Species density at the 'Canungra' roost. Note that trees on the western boarder of the roost were removed between the tree survey (May 2018) and the first bat survey where bats were present (September 2018). Ongoing construction works (with heavy machinery) was conducted next to the roost from ~May 2019 until the end of the survey period (August 2019) during which time no bats were present at the roost. Only Black flying-fox and grey-headed flying-fox were observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+
+### Clunes
+```{r, echo=FALSE}
+DCLU001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide1.JPG")
+DCLU002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide2.JPG")
+DCLU003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide3.JPG")
+DCLU004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide4.JPG")
+DCLU005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide5.JPG")
+DCLU006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide6.JPG")
+DCLU007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide7.JPG")
+DCLU008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide8.JPG")
+DCLU009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide9.JPG")
+DCLU010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide10.JPG")
+DCLU011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide11.JPG")
+DCLU012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide12.JPG")
+DCLU013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DCLU/Slide13.JPG")
+
+imgs <- c(DCLU001, DCLU002, DCLU003, DCLU004, DCLU005, DCLU006, DCLU007, DCLU008, DCLU009, DCLU010, DCLU011, DCLU012, DCLU013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+**Figure 4: Species density at the 'Clunes' roost. Note that this roost is in a privately owned tree plantation. Only Black flying-fox and grey-headed flying-fox were observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+
+### Lismore
+```{r, echo=FALSE}
+DLIS001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide1.JPG")
+DLIS002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide2.JPG")
+DLIS003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide3.JPG")
+DLIS004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide4.JPG")
+DLIS005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide5.JPG")
+DLIS006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide6.JPG")
+DLIS007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide7.JPG")
+DLIS008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide8.JPG")
+DLIS009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide9.JPG")
+DLIS010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide10.JPG")
+DLIS011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide11.JPG")
+DLIS012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide12.JPG")
+DLIS013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DLIS/Slide13.JPG")
+
+imgs <- c(DLIS001, DLIS002, DLIS003, DLIS004, DLIS005, DLIS006, DLIS007, DLIS008, DLIS009, DLIS010, DLIS011, DLIS012, DLIS013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+**Figure 5: Species density at the 'Lismore' roost. Note that there was a nomadic influx of black flying-fox to this roost through August-September 2018. Also note that the perimeter/area value for May 2019 was removed from analyses as the satellite camp to the East was not captured. Black outlines show the perimeter of the roost at the time of the survey. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site, but little red flying-foxes were not captured in surveys.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+
+### Redcliffe
+```{r, echo=FALSE}
+## Redcliffe
+DRED001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide1.JPG")
+DRED002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide2.JPG")
+DRED003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide3.JPG")
+DRED004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide4.JPG")
+DRED005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide5.JPG")
+DRED006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide6.JPG")
+DRED007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide7.JPG")
+DRED008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide8.JPG")
+DRED009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide9.JPG")
+DRED010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide10.JPG")
+DRED011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide11.JPG")
+DRED012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide12.JPG")
+DRED013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DRED/Slide13.JPG")
+
+imgs <- c(DRED001, DRED002, DRED003, DRED004, DRED005, DRED006, DRED007, DRED008, DRED009, DRED010, DRED011, DRED012, DRED013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+**Figure 6: Species density at the 'Redcliffe' roost. Note that this roost is in a botanical garden (manually created and maintained). Some trees were removed through the course of the bat surveys. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+
+### Sunnybank
+```{r, echo=FALSE}
+DSUN001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide1.JPG")
+DSUN002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide2.JPG")
+DSUN003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide3.JPG")
+DSUN004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide4.JPG")
+DSUN005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide5.JPG")
+DSUN006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide6.JPG")
+DSUN007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide7.JPG")
+DSUN008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide8.JPG")
+DSUN009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide9.JPG")
+DSUN010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide10.JPG")
+DSUN011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide11.JPG")
+DSUN012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide12.JPG")
+DSUN013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DSUN/Slide13.JPG")
+
+imgs <- c(DSUN001, DSUN002, DSUN003, DSUN004, DSUN005, DSUN006, DSUN007, DSUN008, DSUN009, DSUN010, DSUN011, DSUN012, DSUN013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+**Figure 7: Species density at the 'Sunnybank' roost. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+
+### Toowoomba
+```{r, echo=FALSE}
+DTOW001 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide1.JPG")
+DTOW002 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide2.JPG")
+DTOW003 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide3.JPG")
+DTOW004 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide4.JPG")
+DTOW005 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide5.JPG")
+DTOW006 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide6.JPG")
+DTOW007 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide7.JPG")
+DTOW008 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide8.JPG")
+DTOW009 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide9.JPG")
+DTOW010 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide10.JPG")
+DTOW011 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide11.JPG")
+DTOW012 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide12.JPG")
+DTOW013 <- knitr::include_graphics("Output/Figures/Perimeter maps_density/DTOW/Slide13.JPG")
+
+imgs <- c(DTOW001, DTOW002, DTOW003, DTOW004, DTOW005, DTOW006, DTOW007, DTOW008, DTOW009, DTOW010, DTOW011, DTOW012, DTOW013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+**Figure 8: Species density at the 'Toowoomba' roost. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Squares show survey plots (10 per site) with location of trees (black circles). Spatial density of bats is shown for each plot by the intensity of shading, with species split by colour (red = black flying-fox, blue = grey-headed flying-fox, grey = little red flying-fox). Spatial density was estimated by fixed-bandwidth kernel density estimation, calculated from the spatial distribution of roost trees weighted by bat abundance per tree (weighted index value). Note that maximum density is fixed within sites (i.e. across plots and surveys) but varies between sites. Also note that little-red flying-fox density is overlaid on black flying-fox density, which is overlaid on grey-headed flying-fox density. In cases where black and grey-headed flying-foxes occur in a single tree (i.e. not a cluster of trees) their occurrence may be masked in maps by an overlapping species. Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between plot density and roost perimeter (i.e. density shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.
+

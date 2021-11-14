@@ -1,0 +1,211 @@
+---
+title: "Appendix S4 - Male composition per tree over space and time"
+author: "Tamika Lunn"
+date: "08/01/2021"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+Supporting Information for Lunn et al (2021) Conventional wisdom on roosting behaviour of Australian flying foxes – a critical review, and evaluation using new data 
+
+```{r setup, include=FALSE}
+### Load packages
+library(knitr)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("EBImage") #scroll images
+library(EBImage) #https://rdrr.io/bioc/EBImage/man/display.html citation("EBImage")
+```
+
+**This document provides interactive images of male composition (per tree) at each site across the survey period.**  
+
+Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+Bat sex was only recorded for a subset of trees (N=60 per site). The tree subset was randomly selected, stratified by subplot and crown class. Stratifications included six trees per subplot, with one tree in each crown class except emergent, from which two trees were chosen. If a specific crown class was not present in a subplot, the next crown class down in height was selected instead. The selected random subset of trees was consistent through time. Absence of a dot on the mat reflects times where there were no bats present in the tree to record.
+
+Trees were mapped within plots using an ultrasound distance instrument (Vertex Hypsometer) and locations are accurate to 10-30 centimeters. Select plot corners were then georeferenced with GPS (accurate to 10 meters). Roost perimeter was mapped with GPS. Mismatch between tree occupation and roost perimeter (i.e. males shown outside the recorded boundary) can be attributed to GPS location inaccuracy (+/- 10 meters) in either the roost perimeter or the georeference point for plots.  
+
+### Avondale
+```{r, echo=FALSE}
+DAVO001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide1.JPG")
+DAVO002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide2.JPG")
+DAVO003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide3.JPG")
+DAVO004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide4.JPG")
+DAVO005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide5.JPG")
+DAVO006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide6.JPG")
+DAVO007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide7.JPG")
+DAVO008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide8.JPG")
+DAVO009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide9.JPG")
+DAVO010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide10.JPG")
+DAVO011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide11.JPG")
+DAVO012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide12.JPG")
+DAVO013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DAVO/Slide13.JPG")
+
+imgs <- c(DAVO001, DAVO002, DAVO003, DAVO004, DAVO005, DAVO006, DAVO007, DAVO008, DAVO009, DAVO010, DAVO011, DAVO012, DAVO013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+
+**Figure 1: Male composition and distribution at the 'Avondale' roost. Note that construction works were carried out in the west of the roost between the tree survey (April 2018) and start of bat surveys (August 2018), causing the bats to shift unexpectedly to the east and away from the majority of the survey plots. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site, but little red flying-foxes were not captured in surveys.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+### Burleigh
+```{r, echo=FALSE}
+DBUR001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide1.JPG")
+DBUR002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide2.JPG")
+DBUR003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide3.JPG")
+DBUR004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide4.JPG")
+DBUR005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide5.JPG")
+DBUR006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide6.JPG")
+DBUR007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide7.JPG")
+DBUR008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide8.JPG")
+DBUR009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide9.JPG")
+DBUR010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide10.JPG")
+DBUR011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide11.JPG")
+DBUR012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide12.JPG")
+DBUR013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DBUR/Slide13.JPG")
+
+imgs <- c(DBUR001, DBUR002, DBUR003, DBUR004, DBUR005, DBUR006, DBUR007, DBUR008, DBUR009, DBUR010, DBUR011, DBUR012, DBUR013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+
+**Figure 2: Male composition and distribution at the 'Burleigh' roost. Only Black flying-foxes were observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+
+### Canungra
+```{r, echo=FALSE}
+DCAN001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide1.JPG")
+DCAN002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide2.JPG")
+DCAN003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide3.JPG")
+DCAN004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide4.JPG")
+DCAN005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide5.JPG")
+DCAN006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide6.JPG")
+DCAN007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide7.JPG")
+DCAN008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide8.JPG")
+DCAN009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide9.JPG")
+DCAN010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide10.JPG")
+DCAN011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide11.JPG")
+DCAN012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide12.JPG")
+DCAN013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCAN/Slide13.JPG")
+
+imgs <- c(DCAN001, DCAN002, DCAN003, DCAN004, DCAN005, DCAN006, DCAN007, DCAN008, DCAN009, DCAN010, DCAN011, DCAN012, DCAN013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+
+**Figure 3: Male composition and distribution at the 'Canungra' roost. Note that trees on the western boarder of the roost were removed between the tree survey (May 2018) and the first bat survey where bats were present (September 2018). Ongoing construction works (with heavy machinery) was conducted next to the roost from ~May 2019 until the end of the survey period (August 2019) during which time no bats were present at the roost. Only Black flying-fox and grey-headed flying-fox were observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+
+### Clunes
+```{r, echo=FALSE}
+DCLU001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide1.JPG")
+DCLU002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide2.JPG")
+DCLU003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide3.JPG")
+DCLU004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide4.JPG")
+DCLU005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide5.JPG")
+DCLU006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide6.JPG")
+DCLU007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide7.JPG")
+DCLU008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide8.JPG")
+DCLU009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide9.JPG")
+DCLU010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide10.JPG")
+DCLU011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide11.JPG")
+DCLU012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide12.JPG")
+DCLU013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DCLU/Slide13.JPG")
+
+imgs <- c(DCLU001, DCLU002, DCLU003, DCLU004, DCLU005, DCLU006, DCLU007, DCLU008, DCLU009, DCLU010, DCLU011, DCLU012, DCLU013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+
+**Figure 4: Male composition and distribution at the 'Clunes' roost. Note that this roost is in a privately owned tree plantation. Only Black flying-fox and grey-headed flying-fox were observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+
+### Lismore
+```{r, echo=FALSE}
+DLIS001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide1.JPG")
+DLIS002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide2.JPG")
+DLIS003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide3.JPG")
+DLIS004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide4.JPG")
+DLIS005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide5.JPG")
+DLIS006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide6.JPG")
+DLIS007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide7.JPG")
+DLIS008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide8.JPG")
+DLIS009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide9.JPG")
+DLIS010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide10.JPG")
+DLIS011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide11.JPG")
+DLIS012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide12.JPG")
+DLIS013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DLIS/Slide13.JPG")
+
+imgs <- c(DLIS001, DLIS002, DLIS003, DLIS004, DLIS005, DLIS006, DLIS007, DLIS008, DLIS009, DLIS010, DLIS011, DLIS012, DLIS013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Origional size 3000 x 2250, so 1:0.75
+```
+
+**Figure 5: Male composition and distribution at the 'Lismore' roost. Note that there was a nomadic influx of black flying-fox to this roost through August-September 2018. Also note that the perimeter for May 2019 does not capture a satellite camp to the East of the roost and was removed from analyses. Black outlines show the perimeter of the roost at the time of the survey. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site, but little red flying-foxes were not captured in surveys.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+
+### Redcliffe
+```{r, echo=FALSE}
+## Redcliffe
+DRED001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide1.JPG")
+DRED002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide2.JPG")
+DRED003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide3.JPG")
+DRED004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide4.JPG")
+DRED005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide5.JPG")
+DRED006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide6.JPG")
+DRED007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide7.JPG")
+DRED008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide8.JPG")
+DRED009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide9.JPG")
+DRED010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide10.JPG")
+DRED011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide11.JPG")
+DRED012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide12.JPG")
+DRED013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DRED/Slide13.JPG")
+
+imgs <- c(DRED001, DRED002, DRED003, DRED004, DRED005, DRED006, DRED007, DRED008, DRED009, DRED010, DRED011, DRED012, DRED013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+
+**Figure 6: Male composition and distribution at the 'Redcliffe' roost. Note that this roost is in a botanical garden (manually created and maintained). Some trees were removed through the course of the bat surveys. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+
+### Sunnybank
+```{r, echo=FALSE}
+DSUN001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide1.JPG")
+DSUN002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide2.JPG")
+DSUN003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide3.JPG")
+DSUN004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide4.JPG")
+DSUN005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide5.JPG")
+DSUN006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide6.JPG")
+DSUN007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide7.JPG")
+DSUN008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide8.JPG")
+DSUN009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide9.JPG")
+DSUN010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide10.JPG")
+DSUN011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide11.JPG")
+DSUN012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide12.JPG")
+DSUN013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DSUN/Slide13.JPG")
+
+imgs <- c(DSUN001, DSUN002, DSUN003, DSUN004, DSUN005, DSUN006, DSUN007, DSUN008, DSUN009, DSUN010, DSUN011, DSUN012, DSUN013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+
+**Figure 7: Male composition and distribution at the 'Sunnybank' roost. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
+
+### Toowoomba
+```{r, echo=FALSE}
+DTOW001 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide1.JPG")
+DTOW002 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide2.JPG")
+DTOW003 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide3.JPG")
+DTOW004 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide4.JPG")
+DTOW005 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide5.JPG")
+DTOW006 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide6.JPG")
+DTOW007 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide7.JPG")
+DTOW008 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide8.JPG")
+DTOW009 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide9.JPG")
+DTOW010 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide10.JPG")
+DTOW011 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide11.JPG")
+DTOW012 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide12.JPG")
+DTOW013 <- knitr::include_graphics("Output/Figures/Perimeter maps_males/DTOW/Slide13.JPG")
+
+imgs <- c(DTOW001, DTOW002, DTOW003, DTOW004, DTOW005, DTOW006, DTOW007, DTOW008, DTOW009, DTOW010, DTOW011, DTOW012, DTOW013)
+display(readImage(imgs), method="browser", width=1250, height=938) #Original size 3000 x 2250, so 1:0.75
+```
+
+**Figure 8: Male composition and distribution at the 'Toowoomba' roost. Black flying-fox, grey-headed flying-fox and little red flying-fox were all observed at this site.** Black outlines show the perimeter of the roost at the time of the survey. The black star indicates the center of the roost at the time of the survey, calculated as the centroid of the roost perimeter.  Grey outlines show all observed perimeters during the survey. Dots show the locations of surveyed trees and the male composition of the tree - white dots indicate 0% males (all female), grey dots indicate mixed sex, and black dots indicate 100% males (no females). Note that not all trees from a tree were surveyed - if there were many bats in a tree (~ >10) sexes from a single section of the tree would be recorded only. 
+
