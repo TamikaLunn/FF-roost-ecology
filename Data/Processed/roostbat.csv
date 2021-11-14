@@ -1,0 +1,105 @@
+"","site.code","session","site.accession","date","Red.date","year","month","day","person","roost.area","roost.perimeter","pop.estimate.BFF","index.abundance","pop.estimate.GHFF","pop.estimate.LRFF","pop.estimate.total","pop.method","exit.count","bats.remain","bats.remain.num","comments","total.trees"
+"1","DAVO","1","DAVO001","2018-08-11",NA,2018,8,11,"Tamika Lunn",5314,488.33,5810,4,0,0,5810,"NFFMP",NA,NA,NA,"Only BFF present",266
+"2","DBUR","1","DBUR001","2018-08-13",NA,2018,8,13,"Tamika Lunn",0,0,0,0,0,0,0,"direct",NA,NA,NA,NA,327
+"3","DCAN","1","DCAN001","2018-08-15",NA,2018,8,15,"Tamika Lunn",0,0,0,0,0,0,0,"direct",NA,NA,NA,"It's possible that the trees noticed to be fallen in September were cut before this survey",474
+"4","DCLU","1","DCLU001","2018-08-08",NA,2018,8,8,"Tamika Lunn",7971.18,580.79,500,2,200,0,700,"estimate",NA,NA,NA,"Highest density of bats along road outside of plots",349
+"5","DLIS","1","DLIS001","2018-08-06",NA,2018,8,6,"Tamika Lunn",89321.6,1581.53,3896,7,90675,0,94571,"NFFMP",NA,NA,NA,NA,474
+"6","DRED","1","DRED001","2018-08-14",NA,2018,8,14,"Tamika Lunn",12408.35,657.7,8000,4,500,0,5035,"council",NA,NA,NA,NA,285
+"7","DSUN","1","DSUN001","2018-08-11",NA,2018,8,11,"Tamika Lunn",0,0,0,0,0,0,0,"direct",NA,NA,NA,NA,226
+"8","DTOW","1","DTOW001","2018-08-16",NA,2018,8,16,"Tamika Lunn",3909.69,293.57,1742,2,283,0,2025,"direct",NA,NA,NA,NA,118
+"9","DAVO","2","DAVO002","2018-09-20",NA,2018,9,20,"Tamika Lunn;  Devin Jones",5477.74,348.34,NA,2,NA,NA,NA,"estimate",NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar). LRFF not mentioned being present",268
+"10","DBUR","2","DBUR002","2018-09-25",NA,2018,9,25,"Tamika Lunn; Remy Brooks",5012.37,350.04,350,1,0,0,300,"estimate",NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar)",327
+"11","DCAN","2","DCAN002","2018-09-23",NA,2018,9,23,"Tamika Lunn; Remy Brooks",2040.08,228.69,NA,3,NA,0,NA,NA,NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar)",434
+"12","DCLU","2","DCLU002","2018-09-19",NA,2018,9,19,"Remy Brooks",6972.05,320.89,NA,2,NA,0,NA,NA,NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar)",349
+"13","DLIS","2","DLIS002","2018-09-26",NA,2018,9,26,"Tamika Lunn; Remy Brooks",86925.62,1539.28,NA,7,NA,NA,NA,"estimate",NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar)",474
+"14","DRED","2","DRED002","2018-09-24",NA,2018,9,24,"Tamika Lunn; Remy Brooks",17991.42,606.69,NA,3,NA,NA,4950,"council",NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar)",285
+"15","DSUN","2","DSUN002","2018-09-21",NA,2018,9,21,"Tamika Lunn; Devin Jones",5219.98,396.28,NA,3,NA,0,NA,NA,NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar)",226
+"16","DTOW","2","DTOW002","2018-09-27",NA,2018,9,27,"Tamika Lunn; Remy Brooks",15150.28,564.52,NA,3,NA,NA,4000,"estimate",NA,NA,NA,"Exit video lost - saved on a USB that stopped working (Lexar). Bats still in core areas in similar numbers, but bats now in extra peripheral areas. Not quite double in size but close. Estimate around 4,000 bats",118
+"17","DAVO","3","DAVO003","2018-10-25",NA,2018,10,25,"Remy Brooks",4715.26,403.79,NA,2,NA,NA,NA,"estimate",NA,"N",NA,"LRFF & BFF not mentioned being present",268
+"18","DBUR","3","DBUR003","2018-10-27",NA,2018,10,27,"Remy Brooks",3311.95,269.93,300,1,0,0,300,"estimate",NA,"N",NA,"Very small roost - approx 15% less than other visits. GHFF & LRFF not mentioned being present",327
+"19","DCAN","3","DCAN003","2018-10-23",NA,2018,10,23,"Remy Brooks",1941.19,209.17,NA,3,NA,0,NA,NA,NA,"N",NA,"21 rows of missing data (presumed fallen but not). BFF & LRFF not mentioned being present. BFF usually occupy single trees, so could have been there",414
+"20","DCLU","3","DCLU003","2018-10-24",NA,2018,10,24,"Remy Brooks",6043.82,378.53,NA,2,NA,0,NA,"estimate",NA,"N",NA,"Camera died while fimling. File not saved. Times in QLD zone not NSW zone (i.e. consistent with others)",349
+"21","DLIS","3","DLIS003","2018-10-20",NA,2018,10,20,"Remy Brooks",27892.41,1396.28,NA,6,NA,NA,NA,"estimate",NA,"Y","F","Started filming late",474
+"22","DRED","3","DRED003","2018-10-22",NA,2018,10,22,"Remy Brooks",16796.66,675.04,NA,3,NA,NA,2807,"council",NA,"N",NA,"Approx 45% less than normal - heavy storms recently",285
+"23","DSUN","3","DSUN003","2018-10-26",NA,2018,10,26,"Remy Brooks",2771.37,374.19,NA,2,NA,NA,NA,NA,NA,"N",NA,"LRFF in area behind plot 2 next to plot 10",226
+"24","DTOW","3","DTOW003","2018-10-21",NA,2018,10,21,"Remy Brooks",13748.09,582.14,NA,2,NA,NA,1070,NA,"estimate",NA,NA,"Video file corrupted",118
+"25","DAVO","4","DAVO004","2018-11-26",NA,2018,11,26,"Remy Brooks",6759.97,422.55,NA,3,NA,NA,NA,"estimate",NA,"Y","F","Abundance approx 2.5 x bigger than in October. LRFF not mentioned being present",268
+"26","DBUR","4","DBUR004","2018-11-29",NA,2018,11,29,"Remy Brooks",3322.12,404.27,345,1,0,0,345,"NFFMP",NA,"N",NA,"Flyout pattern very scattered, not much caught on video. Video angle changed part way through. Abundance approximately similar to October. GHFF & LRFF not mentioned being present",327
+"27","DCAN","4","DCAN004","2018-11-28",NA,2018,11,28,"Remy Brooks",3951.85,386.68,NA,4,NA,0,NA,NA,NA,NA,NA,"18 rows of missing data (presumed missing when not). General abundance was a little bigger than October (maybe 0.5 bigger)",417
+"28","DCLU","4","DCLU004","2018-11-27",NA,2018,11,27,"Remy Brooks",6852.96,382.79,NA,2,NA,0,NA,"estimate",NA,"N",NA,"General abundance ~0.5 LESS than in October, but only slightly. Possible that Remy forgot to record QLD time instead of NSW time. Camera re-adjusted twice through filming. Memory became full ~30 minutes into filming and was stopped, but only stragglers remained at that point",349
+"29","DLIS","4","DLIS004","2018-11-30",NA,2018,11,30,"Remy Brooks",13764.39,590.69,NA,6,NA,NA,NA,"estimate",NA,NA,NA,NA,474
+"30","DRED","4","DRED004","2018-11-19",NA,2018,11,19,"Remy Brooks",14454.87,794.35,NA,3,NA,NA,2509,"council",NA,"Y","F","Powerbank died - first filming started at 18:11, second filming started at 18:48. Part 1 didn't save on card. Lots of ibis at beginning of video. Bats moving around camera but not leaving. Didn't capture many bats on video",285
+"31","DSUN","4","DSUN004","2018-11-21",NA,2018,11,21,"Remy Brooks",7308.34,484.78,NA,3,NA,NA,NA,NA,NA,"Y","F","Video moved part way through filming (2 minutes in). Stopped at 19:03 because of rain",226
+"32","DTOW","4","DTOW004","2018-11-17",NA,2018,11,17,"Remy Brooks",13247.08,535.93,1270,2,0,0,1270,"NFFMP",NA,NA,NA,"Adjusted video position three times during recording. Captured most of the flyout but might be too far away. Estimated to be 10% larger than last time (now more in plots 8&9)",118
+"33","DAVO","5","DAVO005","2018-12-18",NA,2018,12,18,"Remy Brooks",7303.39,422.86,NA,3,NA,NA,NA,"estimate",NA,NA,NA,"Couldn't record (raining through flyout). General abundance was 0.5-1x larger than in November. Denser population spread out from plot 1. LRFF & BFF not mentioned being present",268
+"34","DBUR","5","DBUR005","2018-12-19",NA,2018,12,19,"Remy Brooks",1312.21,271.65,170,1,0,0,170,"estimate",NA,"Y","F","Earlier flyout than normal (very cloudy). General abundance smaller (~0.5x) than November. Are juveniles in areas outside of plots. GHFF & LRFF not mentioned being present",327
+"35","DCAN","5","DCAN005","2018-12-13",NA,2018,12,13,"Tamika Lunn; Remy Brooks",4333.31,462.65,NA,4,NA,0,NA,NA,NA,"N",NA,"Started after flyout and missed peak flight. 13 rows of missing data (presumed missing when not)",422
+"36","DCLU","5","DCLU005","2018-12-11",NA,2018,12,11,"Remy Brooks",9363.74,466.82,NA,3,NA,0,NA,"estimate",NA,"Y","S","Approx abundance 1.5-2x the amount of November. Occupying a wider perimeter than November. Lots of chattering and movement within roost at 18:30 (QLD time), but no flying. Could hear a lot of babies sqwarking from roost, mothers wait to fly out later? Times converted to QLD time (NSW on datasheet. NSW 1 hour ahead of QLD)",349
+"37","DLIS","5","DLIS005","2018-12-14",NA,2018,12,14,"Tamika Lunn; Remy Brooks",14838.06,720.87,NA,6,NA,NA,NA,"estimate",NA,NA,NA,"Couldn't record (raining through flyout).",474
+"38","DRED","5","DRED005","2018-12-12",NA,2018,12,12,"Tamika Lunn; Remy Brooks",19744.86,814.78,NA,3,NA,NA,4018,"council",NA,"Y","F","Babies and adults left in roost. Flyout started before camera set up, but filmed peak flyout. Still slow at beginning of recording. Ibis x 5 @ 18:42, likely in screen. Switched angles at 18:54 as number of bats captured dropped substantially from origional angle.",285
+"39","DSUN","5","DSUN005","2018-12-15",NA,2018,12,15,"Tamika Lunn",3681.99,362.35,NA,3,NA,NA,NA,"estimate",NA,NA,NA,"Couldn't record (raining through flyout).",226
+"40","DTOW","5","DTOW005","2018-12-17",NA,2018,12,17,"Tamika Lunn",14017.75,517.34,NA,3,NA,NA,3088,"direct",NA,NA,NA,NA,118
+"41","DAVO","6","DAVO006","2019-01-22",NA,2019,1,22,"Remy Brooks",6412.85,485.95,NA,2,NA,NA,1616,"direct",NA,NA,NA,"Roost bigger than normal (more clumped). LRFF and BFF not mentioned being present",268
+"42","DBUR","6","DBUR006","2019-01-20",NA,2019,1,20,"Remy Brooks",3072.08,319.62,406,1,0,0,406,"direct",NA,NA,NA,"GHFF & LRFF not mentioned being present",327
+"43","DCAN","6","DCAN006","2019-01-25",NA,2019,1,25,"Tamika Lunn; Remy Brooks",6482.43,413.23,NA,5,NA,0,NA,NA,NA,"Y","F","1 row of missing data - no values recorded for DCAN06291 but should have been",434
+"44","DCLU","6","DCLU006","2019-01-21",NA,2019,1,21,"Remy Brooks",13670.55,551.34,NA,3,NA,0,4546,"direct",NA,NA,NA,NA,349
+"45","DLIS","6","DLIS006","2019-01-30",NA,2019,1,30,"Tamika Lunn; Remy Brooks",19281.93,880.88,1500,6,15000,0,16500,"estimate",NA,"Y","F","Estimates from Peggy. Times converted to QLD time. Juveniles and adults remainined in roost. Sunset @ 18:44, last light @ 19:09. Circling @ 18:44. Ibis @ 18:52. Can see more bats @ 18:56 in life than in cam (maybe groups of 10-20 flying out). Flying lower than normal. Peak @ 19:00-19:10",474
+"46","DRED","6","DRED006","2019-01-24",NA,2019,1,24,"Tamika Lunn; Remy Brooks",18055.72,833.73,NA,4,NA,NA,5185,"council",NA,"Y","F","Sunset @ 18:39. Last light @ 19:10",285
+"47","DSUN","6","DSUN006","2019-01-29",NA,2019,1,29,"Tamika Lunn; Remy Brooks",5012.7,367.41,NA,3,NA,NA,NA,"estimate",NA,"Y","F","Juveniles and adults remainined in roost. Started recording after flyout began (circling at 18:37 on arrival, started at 18:44). 2 x aeroplanes through recording (slow moving, alightly larger than bats). Peak flyout ~ 6:48-7:09. Flying lower than normal",226
+"48","DTOW","6","DTOW006","2019-01-28",NA,2019,1,28,"Tamika Lunn",15978.09,565.99,NA,3,NA,NA,4391,"direct",NA,NA,NA,NA,118
+"49","DAVO","7","DAVO007","2019-02-20",NA,2019,2,20,"Tamika Lunn",3140.26,351.65,962,3,50,2100,3112,"direct",NA,NA,NA,"Lots of LRFF immediately west of plot 1. GHFF immediately south of plot 1 (but not many)",268
+"50","DBUR","7","DBUR007","2019-02-22",NA,2019,2,22,"Tamika Lunn; Liam Chirio",1722.35,180.65,389,1,0,0,389,"direct",NA,NA,NA,NA,327
+"51","DCAN","7","DCAN007","2019-02-21",NA,2019,2,21,"Tamika Lunn; Liam Chirio",7316.85,388.99,NA,5,NA,0,NA,NA,NA,"N",NA,"Video file lost - was possibly saved in the backup folder in the broken USB (Lexar)",434
+"52","DCLU","7","DCLU007","2019-02-26",NA,2019,2,26,"Tamika Lunn; Rachael Smethurst",5546.46,358.12,NA,3,NA,0,4819,"direct",NA,NA,NA,NA,349
+"53","DLIS","7","DLIS007","2019-02-26",NA,2019,2,26,"Tamika Lunn; Rachael Smethurst",19320.45,782.59,1000,5,10953,0,11953,"NFFMP",NA,"N",NA,"Video file lost - was possibly saved in the backup folder in the broken USB (Lexar). Times in QLD time",474
+"54","DRED","7","DRED007","2019-02-20",NA,2019,2,20,"Tamika Lunn; Liam Chirio",13358.7,742.83,NA,3,NA,NA,4370,"council",NA,"N",NA,"Video file lost - was possibly saved in the backup folder in the broken USB (Lexar)",285
+"55","DSUN","7","DSUN007","2019-02-22",NA,2019,2,22,"Tamika Lunn; Liam Chirio",3049.78,337.7,2612,3,215,565,3392,"direct",NA,NA,NA,NA,226
+"56","DTOW","7","DTOW007","2019-02-27",NA,2019,2,27,"Tamika Lunn; Isaac Davies",13492.38,526,NA,4,NA,NA,5844,"direct",NA,NA,NA,NA,118
+"57","DAVO","8","DAVO008","2019-03-26",NA,2019,3,26,"Remy Brooks",7351.84,422.26,NA,2,NA,NA,1764,"direct",NA,NA,NA,"Some LRFF remaining, but not as many",268
+"58","DBUR","8","DBUR008","2019-03-20",NA,2019,3,20,"Remy Brooks",0,0,0,0,0,0,0,"direct",NA,NA,NA,NA,327
+"59","DCAN","8","DCAN008","2019-03-21",NA,2019,3,21,"Remy Brooks",7381.15,500.74,NA,5,NA,0,NA,NA,NA,"N",NA,"Partial recording only (powerbank ran out of charge and was reconnected during flyout). Second part only",434
+"60","DCLU","8","DCLU008","2019-03-27",NA,2019,3,27,"Remy Brooks",13308.29,512.41,NA,3,NA,0,4897,"direct",NA,NA,NA,NA,349
+"61","DLIS","8","DLIS008","2019-03-29",NA,2019,3,29,"Remy Brooks",15327.06,716.88,NA,6,NA,NA,NA,"estimate",NA,"N",NA,"Time converted to QLD time from datasheet",474
+"62","DRED","8","DRED008","2019-03-25",NA,2019,3,25,"Remy Brooks",22927.134,719.25,NA,5,NA,NA,10690,"council",NA,"N",NA,"Changed video position part way through. Many bats not caught on camera",285
+"63","DSUN","8","DSUN008","2019-03-26",NA,2019,3,26,"Remy Brooks",5546.17,348.13,NA,3,NA,0,2853,"direct",NA,NA,NA,"LRFF have left",226
+"64","DTOW","8","DTOW008","2019-03-28",NA,2019,3,28,"Remy Brooks",17981.54,607.86,NA,3,NA,NA,4679,"direct",NA,NA,NA,NA,118
+"65","DAVO","9","DAVO009","2019-04-17",NA,2019,4,17,"Remy Brooks",4904.49,380.75,NA,2,NA,NA,1153,"direct",NA,NA,NA,"LRFF absent",268
+"66","DBUR","9","DBUR009","2019-04-23",NA,2019,4,23,"Remy Brooks",0,0,0,0,0,0,0,"direct",NA,NA,NA,NA,327
+"67","DCAN","9","DCAN009","2019-04-25",NA,2019,4,25,"Remy Brooks",7581.91,453.33,NA,5,NA,0,NA,NA,NA,"N",NA,"Recording failed",434
+"68","DCLU","9","DCLU009","2019-04-24",NA,2019,4,24,"Remy Brooks",11454.79,527.72,NA,5,NA,0,5639,"direct",NA,NA,NA,NA,349
+"69","DLIS","9","DLIS009","2019-04-18",NA,2019,4,18,"Remy Brooks",12184.23,546.88,NA,6,NA,NA,NA,"estimate",NA,"Y","F","Cut short from rain. Majority of bats exiting from other side of roost and invisible to camera",474
+"70","DRED","9","DRED009","2019-04-22",NA,2019,4,22,"Remy Brooks",14063.16,569.25,NA,3,NA,NA,3320,"council",NA,"N",NA,"File not saved with others",284
+"71","DSUN","9","DSUN009","2019-04-17",NA,2019,4,17,"Remy Brooks",3779.4,310.82,NA,2,NA,0,2399,"direct",NA,NA,NA,"LRFF still absent",226
+"72","DTOW","9","DTOW009","2019-04-16",NA,2019,4,16,"Remy Brooks",14947.65,555.91,NA,3,NA,NA,3474,"direct",NA,NA,NA,NA,118
+"73","DAVO","10","DAVO010","2019-05-27",NA,2019,5,27,"Remy Brooks",6339.16,404.17,NA,2,NA,NA,2103,"direct",NA,NA,NA,"LRFF not mentioned being present",268
+"74","DBUR","10","DBUR010","2019-05-26",NA,2019,5,26,"Remy Brooks",3553.03,351.22,804,2,0,0,804,"direct",NA,NA,NA,"GHFF & LRFF not mentioned being present",327
+"75","DCAN","10","DCAN010","2019-05-26",NA,2019,5,26,"Remy Brooks",0,0,0,0,0,0,0,"direct",NA,NA,NA,NA,434
+"76","DCLU","10","DCLU010","2019-05-30",NA,2019,5,30,"Remy Brooks",11340.73,496.33,NA,4,NA,0,5348,"direct",NA,NA,NA,NA,349
+"77","DLIS","10","DLIS010","2019-05-25",NA,2019,5,25,"Remy Brooks",NA,NA,NA,7,NA,NA,NA,"estimate",NA,"Y","F","Abundance estimate ~ 5x greater than last few months. Video file not saved with others - Remy may still have. Not many bats caught on video though as changed their flyout pattern.",474
+"78","DRED","10","DRED010","2019-05-28",NA,2019,5,28,"Remy Brooks",13443.39,597.84,NA,2,NA,NA,2340,"council",NA,NA,NA,"File not saved with others",284
+"79","DSUN","10","DSUN010","2019-05-27",NA,2019,5,27,"Remy Brooks",4075.82,283.26,NA,2,NA,0,881,"direct",NA,NA,NA,"LRFF not mentioned being present",226
+"80","DTOW","10","DTOW010","2019-05-29",NA,2019,5,29,"Remy Brooks",10633.48,540.92,NA,3,NA,NA,4781,"direct",NA,NA,NA,NA,118
+"81","DAVO","11","DAVO011","2019-06-18",NA,2019,6,18,"Remy Brooks",7150.91,412.47,NA,2,NA,NA,1239,"direct",NA,NA,NA,"No bats in plots 2-10. LRFF not mentioned being present",268
+"82","DBUR","11","DBUR011","2019-06-19",NA,2019,6,19,"Remy Brooks",1312.83,137.01,160,1,0,0,160,"direct",NA,NA,NA,"Bats in plot 2 only. GHFF & LRFF not mentioned being present",327
+"83","DCAN","11","DCAN011","2019-06-19",NA,2019,6,19,"Remy Brooks",0,0,0,0,0,0,0,"direct",NA,NA,NA,"Still deserted due to road construction next to roost",434
+"84","DCLU","11","DCLU011","2019-06-22",NA,2019,6,22,"Remy Brooks",11271.55,521.93,NA,4,NA,0,5364,"direct",NA,NA,NA,"No bats in plot 2, 8, 9 & 10",349
+"85","DLIS","11","DLIS011","2019-06-21",NA,2019,6,21,"Remy Brooks",28263.95,1258.31,NA,6,NA,NA,NA,NA,NA,NA,NA,"Video file not saved with others - Remy may still have, but also no video file datasheet given",474
+"86","DRED","11","DRED011","2019-06-17",NA,2019,6,17,"Remy Brooks",13130.67,633.84,NA,3,NA,NA,3892,"direct",NA,NA,NA,"Additional trees removed this month: 29, 30, 33, 68, 85, 146, 159, 160, 161, 162, 170, 172, 173. Bats largely absent from plots with tree removal (plot 2, 3, 4 & 5). No bats in plots 5, 6 & 9",274
+"87","DSUN","11","DSUN011","2019-06-18",NA,2019,6,18,"Remy Brooks",2542.02,270.65,NA,2,NA,0,2046,"direct",NA,NA,NA,"No bats in plots 1, 2, 8 & 10. LRFF not mentioned being present",226
+"88","DTOW","11","DTOW011","2019-06-20",NA,2019,6,20,"Remy Brooks",16101.21,616.98,NA,4,NA,NA,6003,"direct",NA,NA,NA,"No bats in plot 9",118
+"89","DAVO","12","DAVO012","2019-07-23",NA,2019,7,23,"Remy Brooks",1322.65,158.57,NA,2,NA,NA,1392,"direct",NA,NA,NA,"LRFF not mentioned being present",268
+"90","DBUR","12","DBUR012","2019-07-21",NA,2019,7,21,"Remy Brooks",2120.66,264.43,420,1,0,0,420,"direct",NA,NA,NA,"GHFF & LRFF not mentioned being there",327
+"91","DCAN","12","DCAN012","2019-07-21",NA,2019,7,21,"Remy Brooks",0,0,0,0,0,0,0,"direct",NA,NA,NA,NA,434
+"92","DCLU","12","DCLU012","2019-07-19",NA,2019,7,19,"Remy Brooks",12304.77,546.08,NA,3,NA,0,4573,"direct",NA,NA,NA,NA,349
+"93","DLIS","12","DLIS012","2019-07-20",NA,2019,7,20,"Remy Brooks",30007.57,1473.91,NA,6,NA,NA,NA,"estimate",NA,NA,NA,"Video file not saved with others - Remy may still have. No video datasheet given also",474
+"94","DRED","12","DRED012","2019-07-22",NA,2019,7,22,"Remy Brooks",12855.11,682.8,NA,3,NA,NA,3992,"direct",NA,NA,NA,"In plot 5 have pulled out the smaller understory (untagged) and mulched. No bats in plot this month",274
+"95","DSUN","12","DSUN012","2019-07-23",NA,2019,7,23,"Remy Brooks",3111.44,290.67,NA,2,NA,0,2182,"direct",NA,NA,NA,"More bats in inaccessible areas, not included in count. LRFF not mentioned being present",226
+"96","DTOW","12","DTOW012","2019-07-24",NA,2019,7,24,"Remy Brooks",12489.76,557.69,NA,4,NA,NA,5641,"direct",NA,NA,NA,NA,118
+"97","DAVO","13","DAVO013","2019-08-13",NA,2019,8,13,"Remy Brooks",4400.66,379.08,NA,2,NA,NA,1104,"direct",NA,NA,NA,"LRFF not mentioned being present",268
+"98","DBUR","13","DBUR013","2019-08-15",NA,2019,8,15,"Remy Brooks",2357.26,260.96,406,1,0,0,406,"direct",NA,NA,NA,"Bats in 5, 6 and 8 only. GHFF & LRFF not mentioned being there",327
+"99","DCAN","13","DCAN013","2019-08-15",NA,2019,8,15,"Remy Brooks",0,0,0,0,0,0,0,"direct",NA,NA,NA,"Still deserted after roadworks",434
+"100","DCLU","13","DCLU013","2019-08-14",NA,2019,8,14,"Remy Brooks",14058.29,553.47,NA,3,NA,0,3982,"direct",NA,NA,NA,"Lots of understorey foliage making it harder to see and count bats properly",348
+"101","DLIS","13","DLIS013","2019-08-16",NA,2019,8,16,"Remy Brooks",27467.41,1106,NA,6,NA,NA,NA,"estimate",NA,NA,NA,"Video file not saved with others - Remy may still have. No video datasheet given also. No bats in plot 2, 8, 9 or 10",474
+"102","DRED","13","DRED013","2019-08-19",NA,2019,8,19,"Remy Brooks",14586.31,638.31,NA,3,NA,NA,4201,"direct",NA,NA,NA,"Council is doing maintenance on site, distressing bats and lots are moving throughout the roost during the day",274
+"103","DSUN","13","DSUN013","2019-08-13",NA,2019,8,13,"Remy Brooks",5093.87,361.71,NA,2,NA,0,1984,"direct",NA,NA,NA,"lots of bats in the inaccessible swamp area. Greys congregated in plot 10 and further back into the swamp. LRFF not mentioned being present",226
+"104","DTOW","13","DTOW013","2019-08-12",NA,2019,8,12,"Remy Brooks",5529.94,349.6,NA,4,NA,NA,5003,"direct",NA,NA,NA,"No bats in plots 4, 5, 8, 9 or 10",118
