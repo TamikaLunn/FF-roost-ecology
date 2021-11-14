@@ -5,7 +5,7 @@ To test commonly held understandings about the roosting ecology of Australian fl
 
 The main statistical comparisons tested with our empirical data were as follows: (1) whether density of occupation is greater for subplots in “core” areas of the roost compared with subplots in irregularly occupied “peripheral” areas (defined by occupation greater than or less than 80% of surveys respectively (Appendix S1); (2) whether bat occupation decreases with distance from the roost center (per species); (3) whether bat species segregate in vertical space; and (4) whether dominant individuals occupy the center of roosts, and subdominant individuals the outer area (per species). We also provide qualitative comparisons of (5) seasonal patterns of abundance and occupancy per species; and (6) whether bat species segregate in horizontal space. We utilized generalized additive mixed models (GAMMs) for all statistical comparisons.
 
-The code is organised into an RProject containing four files:
+The code is organised into an RProject containing six files:
 - 00_functions_VSubmission.R - behind-the-scenes custom functions to help with data processing and visualisation
 - 01_create-kernel-density-and-Voroni-polygons_VSubmission.R - spatial code to 1) create kernel density estimates from tree spatial point patterns weighted by bat index values in trees, and 2) calculate and visualise crown area of trees in subplots
 - 02_format-raw-data_VSubmission.R - code to format the raw data into structures suitible for analyes, and to save processed data for later reference
