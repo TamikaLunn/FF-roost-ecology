@@ -1,0 +1,3 @@
+Note - figures called to files 'XX_bat structure cluster visuals_VSubmission.RMD' and 'XX_bat male distribution visuals_VSubmission' are generated in QGIS and powerpoint, respectively, before being called in R
+Processed figures are contained within the 'Perimeter maps_density' and 'Perimeter maps_males' folders
+For access to roost perimeter KML or shapefiles, contact Tamika directly
